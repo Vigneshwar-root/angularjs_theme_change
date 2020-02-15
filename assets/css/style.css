@@ -1,0 +1,59 @@
+html {
+  overflow: hidden;
+}
+
+body {
+  background-color: var(--backgroundColor);
+  overflow-x: unset;
+  overflow-y: unset;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.bg-light {
+  background-color: var(--brandColor) !important;
+}
+
+.navbar-brand {
+  color: white !important;
+}
+
+.navbar {
+  padding: 0rem;
+}
+
+a button {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.navbar-brand {
+  cursor: pointer;
+}
+
+.card {
+  border: 0.1rem solid var(--borderColor);
+  cursor: pointer;
+  background-color: var(--backgroundColor);
+}
+
+.card:hover {
+  background-color: var(--hoverColor);
+}  
+
+.cardHover:hover{
+  color: white;
+}
+
+.card-title .card-text {
+  cursor: default;
+}
+
+.themeSelect{
+  margin-top: 10rem;margin-left: 10rem;pointer-events: none;
+  font-size: 1.2rem;
+}
+
